@@ -1,0 +1,272 @@
+@font-face {
+  font-family: 'Promo';
+  src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Promo';
+  src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Promo', sans-serif;
+  font-weight: 400;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.container-white {
+  background-color: #ffffff;
+}
+
+.block-spacing {
+  margin-bottom: 60px;
+}
+
+.spacer-large {
+  height: 50px;
+}
+
+.hero-card {
+  background-image: url('../img/la.jpeg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  padding: 80px 50px;
+  color: #ffffff;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.hero-subtitle {
+  font-size: 15px;
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+
+.hero-credit {
+  font-size: 15px;
+  margin-bottom: 35px;
+  opacity: 1;
+}
+
+.hero-search-wrapper {
+  background-color: #F2F2F2;
+  padding: 15px 10px;
+  border-radius: 15px;
+  display: inline-flex;
+  width: fit-content;
+}
+
+.hero-search-inner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-search-inner input {
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  width: 320px;
+  color: #333333;
+  font-family: 'Promo', sans-serif;
+}
+
+.hero-search-inner input::placeholder {
+  color: #aaaaaa;
+}
+
+.hero-search-inner button {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: 'Promo', sans-serif;
+}
+
+.container-pink {
+  background-color: #FBECEE;
+  padding: 80px 0;
+}
+
+.circles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.circle-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.circle-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.circle-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.circle-title {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.circle-desc {
+  font-size: 13px;
+  color: #000000;
+}
+
+.section-text {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.section-subtitle {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 4px;
+}
+
+.section-credit {
+  font-size: 13px;
+  color: #888888;
+}
+
+.big-rounded-img {
+  width: 100%;
+  height: 520px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.big-rounded-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photo-caption {
+  margin-top: 15px;
+}
+
+.squares-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.square-item {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.square-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tall-cards-flex {
+  display: flex;
+  gap: 30px;
+}
+
+.tall-card {
+  flex: 1;
+  border-radius: 20px;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.grey-bg {
+  background-color: #f3f4f6;
+  align-items: center;
+  padding: 40px;
+}
+
+.grey-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.purple-bg {
+  background-color: #F0EFFD;
+  padding: 50px 60px;
+}
+
+.card-title {
+  font-size: 34px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+
+.card-subtitle {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.card-list div {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.card-credit {
+  font-size: 14px;
+  color: #000000;
+  margin-top: 20px;
+}

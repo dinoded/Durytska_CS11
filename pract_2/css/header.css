@@ -1,0 +1,18 @@
+header {
+  width: 100%;
+  padding: 30px 0;
+  background-color: #ffffff;
+}
+
+.main-nav {
+  display: flex;
+  gap: 35px;
+  margin-left: 20px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 500;
+}
