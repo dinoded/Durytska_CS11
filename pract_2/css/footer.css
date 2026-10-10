@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   gap: 25px;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
 }
 
 .footer-field {
