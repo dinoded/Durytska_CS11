@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e5e5e5;
+    color: #111111;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.reputation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 38px 16px 28px;
+}
+
+.title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.subtitle {
+    margin-top: 16px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    margin-top: 34px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 456px;
+}
+
+.row {
+    display: flex;
+}
+
+.photo {
+    display: block;
+    object-fit: cover;
+}
+
+.first {
+    width: 456px;
+    height: 334px;
+}
+
+.second {
+    width: 228px;
+    height: 317px;
+}
+
+.third {
+    width: 228px;
+    height: 274px;
+}
+
+.th {
+    width: 456px;
+    height: 377px;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    width: 228px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.white {
+    height: 274px;
+    background: #ffffff;
+}
+
+.orange {
+    height: 317px;
+    background: #f08003;
+}
+
+.stat-number {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.stat-label {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.white .stat-number {
+    color: #f08003;
+}
+
+.orange .stat-number,
+.orange .stat-label {
+    color: #ffffff;
+}
+
+.orange .stat-label {
+    font-weight: 700;
+}
+
+.credit {
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+.credit a {
+    color: #111111;
+    text-decoration: none;
+    border-bottom: 1px solid #111111;
+}
