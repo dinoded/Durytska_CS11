@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятори</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/task1.js" defer></script>
+    <script src="js/task2.js" defer></script>
+    <script src="js/task3.js" defer></script>
+    <script src="js/task4.js" defer></script>
+    <script src="js/task5.js" defer></script>
+    <script src="js/task6.js" defer></script>
+    <script src="js/task7.js" defer></script>
+    <script src="js/task8.js" defer></script>
+    <script src="js/task9.js" defer></script>
+</head>
+<body>
+
+    <div class="list">
+
+        <div class="calc">
+            <h2>Завдання 1</h2>
+            <p class="info">Площа трикутника за трьома сторонами (формула Герона)</p>
+            <label for="a1">Сторона a</label>
+            <input type="number" id="a1" min="0" step="any">
+            <label for="b1">Сторона b</label>
+            <input type="number" id="b1" min="0" step="any">
+            <label for="c1">Сторона c</label>
+            <input type="number" id="c1" min="0" step="any">
+            <button id="btn1">=</button>
+            <div class="res" id="r1"></div>
+        </div>
+
+        <div class="calc">
+            <h2>Завдання 2</h2>
+            <p class="info">Площа трикутника за двома сторонами і кутом між ними</p>
+            <label for="a2">Сторона a</label>
+            <input type="number" id="a2" min="0" step="any">
+            <label for="b2">Сторона b</label>
+            <input type="number" id="b2" min="0" step="any">
+            <label for="g2">Кут між ними (у градусах)</label>
+            <input type="number" id="g2" min="0" max="180" step="any">
+            <button id="btn2">=</button>
+            <div class="res" id="r2"></div>
+        </div>
+
+        <div class="calc">
+            <h2>Завдання 3</h2>
+            <p class="info">Площа трикутника за стороною і висотою</p>
+            <label for="a3">Сторона a</label>
+            <input type="number" id="a3" min="0" step="any">
+            <label for="h3">Висота h</label>
+            <input type="number" id="h3" min="0" step="any">
+            <button id="btn3">=</button>
+            <div class="res" id="r3"></div>
+        </div>
+
+        <div class="calc">
+            <h2>Завдання 4</h2>
+            <p class="info">Площа трикутника за стороною і висотою</p>
+            <label for="a4">Сторона a</label>
+            <input type="number" id="a4" min="0" step="any">
+            <label for="h4">Висота h</label>
+            <input type="number" id="h4" min="0" step="any">
+            <button id="btn4">=</button>
+            <div class="res" id="r4"></div>
+        </div>
+
+        <div class="calc">
+            <h2>Завдання 5</h2>
+            <p class="info">Площа трикутника за трьома сторонами і радіусом описаного кола</p>
+            <label for="a5">Сторона a</label>
+            <input type="number" id="a5" min="0" step="any">
+            <label for="b5">Сторона b</label>
+            <input type="number" id="b5" min="0" step="any">
+            <label for="c5">Сторона c</label>
+            <input type="number" id="c5" min="0" step="any">
+            <label for="rad5">Радіус R</label>
+            <input type="number" id="rad5" min="0" step="any">
+            <button id="btn5">=</button>
+            <div class="res" id="r5"></div>
+        </div>
+
+        <div class="calc">
+            <h2>Завдання 6</h2>
+            <p class="info">Перевірка, чи є число паліндромом</p>
+            <label for="n6">Число</label>
+            <input type="number" id="n6">
+            <button id="btn6">Перевірити</button>
+            <div class="res" id="r6"></div>
+        </div>
+
+        <div class="calc">
+            <h2>Завдання 7</h2>
+            <p class="info">Перевірка, чи є слова анаграмою</p>
+            <label for="w7">Перше слово</label>
+            <input type="text" id="w7">
+            <label for="v7">Друге слово</label>
+            <input type="text" id="v7">
+            <button id="btn7">Перевірити</button>
+            <div class="res" id="r7"></div>
+        </div>
+
+        <div class="calc">
+            <h2>Завдання 8</h2>
+            <p class="info">Число Фібоначчі за порядковим номером</p>
+            <label for="n8">Порядковий номер</label>
+            <input type="number" id="n8" min="1" step="1">
+            <button id="btn8">=</button>
+            <div class="res" id="r8"></div>
+        </div>
+
+        <div class="calc">
+            <h2>Завдання 9</h2>
+            <p class="info">Перевірка, чи належить число послідовності Фібоначчі</p>
+            <label for="n9">Число</label>
+            <input type="number" id="n9" min="1" step="1">
+            <button id="btn9">Перевірити</button>
+            <div class="res" id="r9"></div>
+        </div>
+
+    </div>
+</body>
+</html>
